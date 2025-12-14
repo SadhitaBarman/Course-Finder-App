@@ -1,16 +1,113 @@
-# React + Vite
+# Course Finder (React App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Course Finder** web application built using **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+The goal of this project is to show basic React skills like component structure, state handling, filtering data, using a public API, and deploying a project live.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What does this app do?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Shows a list of courses
+* Allows users to search courses by **name** or **category**
+* Fetches and displays a random motivational quote from a public API
+* Works well on both **desktop and mobile screens**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Used
+
+* React (with Vite)
+* Tailwind CSS
+* JavaScript
+* Public API (Quotable API)
+* Vercel (for deployment)
+
+---
+
+## Project Structure
+
+```
+course-finder/
+├── src/
+│   ├── components/
+│   │   ├── SearchBar.jsx      # Search input component
+│   │   ├── CourseList.jsx     # Displays list of courses
+│   │   ├── CourseCard.jsx     # Single course card
+│   │   └── QuoteBox.jsx       # API quote component
+│   ├── data/
+│   │   └── courses.js         # Course data
+│   ├── App.jsx                # Main app logic
+│   └── index.css              # Tailwind setup
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## How to Run the Project Locally
+
+1. Clone the repository
+
+```bash
+git clone <your-repo-link>
+```
+
+2. Go into the project folder
+
+```bash
+cd course-finder
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+The app will run on `http://localhost:5173`
+
+---
+
+## Deployment
+
+The project is deployed using **Vercel**.
+
+Steps used:
+
+* Pushed the code to GitHub
+* Imported the repository into Vercel
+* Selected Vite framework
+* Built and deployed the app
+
+---
+
+## Why this project?
+
+This project demonstrates:
+
+* Basic React concepts
+* Clean component structure
+* State management using hooks
+* API fetching using `useEffect`
+* Responsive UI using Tailwind CSS
+* Ability to deploy a React app
+
+---
+
+## Live Demo
+
+(Add your deployed Vercel link here)
+
+---
+
+## Author
+
+Built by **Sadhita Barman**
