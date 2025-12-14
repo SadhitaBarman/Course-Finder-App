@@ -103,8 +103,7 @@ This project demonstrates:
 ---
 
 ## Live Demo
-
-(Add your deployed Vercel link here)
+(https://vercel.com/sadhitabarmans-projects/course-finder-app-zr1q)
 
 ---
 
